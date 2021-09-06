@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <title>Clock</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="dark-mode" id="dark-light">
+            <h3>☀</h3>
+        </div>
+        <div class="clock" id="clock">
+            <div class="hour" id="clock-hour"></div>
+            <div class="minute" id="clock-minute"></div>
+            <div class="second" id="clock-second"></div>
+            <div class="nail"></div>
+        </div>
+        <div class="date-time">
+            <div class="time">
+                <h1 id="text-hour">00</h1>
+                <h1>:</h1>
+                <h1 id="text-minute">00</h1>
+            </div>
+            <div class="date">
+                <span id="date">Saturday</span>
+                <span id="month">March</span>
+                <span id="day">31</span>
+                <span id="year">2001</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- JavaScript -->
+<script src="./index.js"></script>
+
+</html>
