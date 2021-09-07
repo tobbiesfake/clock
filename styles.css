@@ -100,8 +100,8 @@ body {
 .hour::before {
     content: '';
     position: absolute;
-    width: .45em;
-    height: 5em;
+    width: .25rem;
+    height: 3rem;
     background-color: rgb(132, 167, 184);
     border-radius: 10px;
 }
@@ -114,8 +114,8 @@ body {
 .minute::before {
     content: '';
     position: absolute;
-    width: 0.45em;
-    height: 8em;
+    width: 0.25rem;
+    height: 4em;
     background-color: rgb(132, 167, 184);
     border-radius: 10px;
 }
@@ -128,8 +128,8 @@ body {
 .second::before {
     content: '';
     position: absolute;
-    width: 0.25em;
-    height: 9.5em;
+    width: 0.125rem;
+    height: 4.75rem;
     background-color: rgb(17, 53, 131);
     border-radius: 10px;
 }
