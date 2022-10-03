@@ -1,15 +1,15 @@
 :root {
-    /* -----DARK-Color----- */
+    /* -----DARK-COLOR----- */
     --bg-dark: rgb(2, 27, 39);
     --color-dark: #79B4B7;
-    --shadow-first-dark: rgb(3, 44, 63);
-    --shadow-second-dark: #000;
+    --shadow-first-dark: #010b10;
+    --shadow-second-dark: #032b3e;
 
     /* -----LIGHT-COLOR----- */
     --bg-light: #D4ECDD;
     --color-light: #152D35;
-    --shadow-first-light: #FFF8E5;
-    --shadow-second-light: #79B4B7;
+    --shadow-first-light: #8c9c92;
+    --shadow-second-light: #ffffff;
 }
 
 * {
@@ -74,10 +74,8 @@ body {
     border-radius: 50%;
     background-color: rgb(2, 27, 39);
     box-shadow:
-        -5px -5px 10px var(--shadow-first-dark),
-        5px 5px 12px var(--shadow-second-dark),
-        inset -5px -5px 6px var(--shadow-first-dark),
-        inset 6px 6px 10px var(--shadow-second-dark);
+        5px 5px 10px var(--shadow-first-dark),
+        -5px -5px 10px var(--shadow-second-dark);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +113,7 @@ body {
     content: '';
     position: absolute;
     width: 0.25rem;
-    height: 4em;
+    height: 4rem;
     background-color: rgb(132, 167, 184);
     border-radius: 10px;
 }
@@ -175,10 +173,8 @@ body {
 .shadow-light {
     background-color: var(--bg-light);
     box-shadow:
-        -6px -6px 10px var(--shadow-first-light),
-        5px 5px 10px var(--shadow-second-light),
-        inset -5px -5px 10px var(--shadow-first-light),
-        inset 5px 5px 10px var(--shadow-second-light);
+        5px 5px 10px var(--shadow-first-light),
+        -5px -5px 10px var(--shadow-second-light);
 }
 
 .btn-light {
